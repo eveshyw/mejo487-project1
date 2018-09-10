@@ -18,7 +18,8 @@
         <a href="#"><img class="logo" alt="UNCTV" src="logo.png"></a>
       </div>
       <nav>
-        <ul class="navitems">
+        <ul class="navitems" id="mynav">
+          <a href="#" class="iconnav"><i class="fa fa-bars fa-2x"></i></a>
           <li><a href="#">Watch</a></li>
           <li><a href="#">Explore</a></li>
           <li><a href="#">Kids</a></li>
@@ -65,15 +66,15 @@
         <div class="text">
           <h1 class="h1"><a href="#">CenterPiece</a></h1>
           <h2 class="h2">Read the monthly program guide for our four channels.</h2>
-          <h3 class="h3" id="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
+          <h3 class="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
         </div>
       </section>
       <section class="card-container">
         <a href="#"><img class="card" alt="eGuide" src="card2.jpeg"></a>
         <div class="text">
-          <h1 class="h1"><a href="#"><a href="#">eGuide</a></h1>
+          <h1 class="h1"><a href="#">eGuide</a></h1>
           <h2 class="h2">Get the latest information about upcoming programs and events.</h2>
-          <h3 class="h3" id="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
+          <h3 class="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
         </div>
       </section>
       <section class="card-container">
@@ -81,7 +82,7 @@
         <div class="text">
           <h1 class="h1"><a href="#">Channel Information</a></h1>
           <h2 class="h2">Find where you can tune in to watch each of our four channels.</h2>
-          <h3 class="h3" id="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
+          <h3 class="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
         </div>
       </section>
       <section class="card-container">
@@ -89,7 +90,7 @@
         <div class="text">
           <h1 class="h1"><a href="#">On Location</a></h1>
           <h2 class="h2">Read the monthly program guide for our four channels.</h2>
-          <h3 class="h3" id="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
+          <h3 class="more"><a href="#">Learn more <i class="fas fa-chevron-right"></i></a></h3>
         </div>
       </section>
     </section>
@@ -101,7 +102,7 @@
         <a href="#"><img class="sponser" alt="Sponser" src="sponser2.jpeg"></a>
         <a href="#"><img class="sponser" alt="Sponser" src="sponser3.jpg"></a>
       </div>
-    <section>
+    </section>
 
     </div>
 
@@ -109,19 +110,186 @@
         <section class="blogs">
           <h1 class="blogposts">LATEST BLOG POSTS</h1>
           <section class="buttons">
-            <button class="button"><a href="#">ARTS</a></button>
-            <button class="button"><a href="#">NC HISTORY</a></button>
-            <button class="button"><a href="#">DOCUMENTARY</a></button>
-            <button class="button"><a href="#">LIFESTYLE</a></button>
+            <div class="button"><a href="#">ARTS</a></div>
+            <div class="button"><a href="#">NC HISTORY</a></div>
+            <div class="button"><a href="#">DOCUMENTARY</a></div>
+            <div class="button"><a href="#">LIFESTYLE</a></div>
           </section>
 
-          <section class="blog-container" id="bigblog">
+          <section class="blog-container-big">
             <div class="blogboard">
-              <img class="blogpic" alt="Reader of the Week" src="art1.png">
-              <div class="belowpic">ARTS</div>
+              <div class="pic-box">
+                <img class="blogpic" alt="Reader of the Week" src="art1.png">
+              </div>
+              <div class="whitearea"><div class="belowpic"><span class="tag">ARTS</span></div></div>
+            </div>
+            <div class="blogtext">
+              <h1 class="title"><a href="#">Reader of the Week: Christina Rush</a></h1>
+              <div class="author">by <span class="boldname">Rebekah Radisch</span> • July 10 2018</div>
+              <div class="icons">
+                <a href="#"><img class="icon" alt="Facebook" src="fb.svg"></a>
+                <a href="#"><img class="icon" alt="Facebook" src="tw.svg"></a>
+                <a href="#"><img class="icon" alt="Facebook" src="gg.svg"></a>
+                <a href="#"><img class="icon" alt="Facebook" src="ml.svg"></a>
+              </div>
+              <div class="content">We're celebrating The Great American Read—and North Carolina's most avid readers—all summer long! See if you have what it takes to be our Reader of the Week!</div>
+              <div class="seemore"><a href="#">See more <i class="fas fa-chevron-right"></i></a></div>
+              <div class="buttons">
+                <div class="button"><a href="#">CHRISTINA RUSH</a></div>
+                <div class="button"><a href="#">ARTS</a></div>
+                <div class="button"><a href="#">NC BOOKWATCH</a></div>
+              </div>
             </div>
           </section>
+
+          <section class="smallblogs">
+            <section class="blog-container-small">
+              <div class="blogboard">
+                <div class="pic-box">
+                  <img class="blogpic" alt="Reader of the Week" src="art1.png">
+                </div>
+                <div class="whitearea"><div class="belowpic"><span class="tag">ARTS</span></div></div>
+                </div>
+              <div class="blogtext">
+                <h1 class="title"><a href="#">Reader of the Week: Bonnie Davis</a></h1>
+                <div class="author">by <span class="boldname">Bonnie Davis</span> • July 19 2018</div>
+                <div class="icons">
+                  <a href="#"><img class="icon" alt="Facebook" src="fb.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="tw.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="gg.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="ml.svg"></a>
+                </div>
+                <div class="content">Bonnie Davis shares her latest favorite read about a loyal dog and his person.</div>
+                <div class="seemore"><a href="#">See more <i class="fas fa-chevron-right"></i></a></div>
+              </div>
+            </section>
+
+            <section class="blog-container-small">
+              <div class="blogboard">
+                <div class="pic-box">
+                  <img class="blogpic" alt="Reader of the Week" src="art1.png">
+                </div>
+                <div class="whitearea"><div class="belowpic"><span class="tag">ARTS</span></div></div>
+                </div>
+              <div class="blogtext">
+                <h1 class="title"><a href="#">Reader of the Week: Christina Rush</a></h1>
+                <div class="author">by <span class="boldname">Rebekah Radisch</span> • July 10 2018</div>
+                <div class="icons">
+                  <a href="#"><img class="icon" alt="Facebook" src="fb.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="tw.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="gg.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="ml.svg"></a>
+                </div>
+                <div class="content">We're celebrating The Great American Read—and North Carolina's most avid readers—all summer long! See if you have what it takes to be our Reader of the Week!</div>
+                <div class="seemore"><a href="#">See more <i class="fas fa-chevron-right"></i></a></div>
+                <div class="buttons">
+                  <div class="button"><a href="#">CHRISTINA RUSH</a></div>
+                  <div class="button"><a href="#">ARTS</a></div>
+                  <div class="button"><a href="#">NC BOOKWATCH</a></div>
+                </div>
+              </div>
+            </section>
+
+            <section class="blog-container-small" id="lastblog">
+              <div class="blogboard">
+                <div class="pic-box">
+                  <img class="blogpic" alt="Reader of the Week" src="art1.png">
+                </div>
+                <div class="whitearea"><div class="belowpic"><span class="tag">ARTS</span></div></div>
+                </div>
+              <div class="blogtext">
+                <h1 class="title"><a href="#">Reader of the Week: Charles Fiore</a></h1>
+                <div class="author">by <span class="boldname">Charles Fiore</span> • July 29 2018</div>
+                <div class="icons">
+                  <a href="#"><img class="icon" alt="Facebook" src="fb.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="tw.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="gg.svg"></a>
+                  <a href="#"><img class="icon" alt="Facebook" src="ml.svg"></a>
+                </div>
+                <div class="content">We're celebrating The Great American Read—and North Carolina's most avid readers—all summer long! See if you have what it takes to be our Reader of the Week!</div>
+                <div class="seemore"><a href="#">See more <i class="fas fa-chevron-right"></i></a></div>
+                <div class="buttons">
+                  <div class="button"><a href="#">CHARLES FIORE</a></div>
+                  <div class="button"><a href="#">ARTS</a></div>
+                  <div class="button"><a href="#">NC BOOKWATCH</a></div>
+                </div>
+              </div>
+            </section>
+
+          </section>
+
+          <section class="numbers">≪ &lt; <span class="num">1</span> 2 3 4 ... 7 8 &gt; ≫</section>
         </section>
+
+        <section class="socials">
+          <a href="#"><img class="social" alt="Facebook" src="facebook.jpg"></a>
+          <a href="#"><img class="social" alt="Twitter" src="twitter.jpg"></a>
+          <a href="#"><img class="social" alt="Instagram" src="instagram.jpg"></a>
+          <a href="#"><img class="social" alt="YouTube" src="youtube.jpg"></a>
+          <a href="#"><img class="social" alt="Mail" src="mail.jpg"></a>
+        </section>
+
+        <section class="footer">
+          <div class="footerleft">
+            <div class="footerlogo"><img class="logo" alt="UNCTV" src="logo.png"></div>
+            <pre class="contactinfo">10 UNC-TV Drive
+PO Box 14900 RTP, NC 27709
+viewer@unctv.org
+
+Phone: 919-549-7000</pre>
+          </div>
+          <div class="footerright">
+            <div class="column">
+              <div class="themetop">Watch</div>
+              <div class="themes">
+                <a href="#" class="link">Schedule</a>
+                <a href="#" class="link">Watch on Demand</a>
+                <a href="#" class="link">UNC-TV Original Series</a>
+                <a href="#" class="link">PBS Shows</a>
+                <a href="#" class="link">UNC-TV Passport</a>
+                <a href="#" class="link">How to Watch Us</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="themetop">Explore</div>
+              <div class="themes">
+                <a href="#" class="link">Arts</a>
+                <a href="#" class="link">Current Affairs & Documentary</a>
+                <a href="#" class="link">Education</a>
+                <a href="#" class="link">Lifestyle</a>
+                <a href="#" class="link">Public Affairs</a>
+                <a href="#" class="link">Science & Technology</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="themetop">About</div>
+              <div class="themes">
+                <a href="#" class="link">About UNC-TV</a>
+                <a href="#" class="link">Creative Services</a>
+                <a href="#" class="link">Employment & Internships</a>
+                <a href="#" class="link">Submissions</a>
+                <a href="#" class="link">Contact Us</a>
+                <a href="#" class="link">Compliance</a>
+              </div>
+            </div>
+            <div class="column">
+              <div class="themetop" id="support"><a href="#">Support</a></div>
+              <div class="themes">
+                <a href="#" class="link">Bcome a Member</a>
+                <a href="#" class="link">Sustained Giving</a>
+                <a href="#" class="link">Matching  Gift</a>
+                <a href="#" class="link">Planned Giving</a>
+                <a href="#" class="link">Underwriting</a>
+                <a href="#" class="link">Corporate & Foundation Support</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="rights">
+          ©2018 UNC-TV Public Media North Carolina. All rights reserved.
+        </section>
+
 
   </body>
 </html>
