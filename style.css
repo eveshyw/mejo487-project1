@@ -121,7 +121,11 @@ h3 {
   text-align: right;
 }
 
-h3 a:visited {
+.caption h3 a {
+  color: white;
+}
+
+.caption h3 a:visited {
   color: white;
 }
 
@@ -179,6 +183,10 @@ a .card {
   color:black;
 }
 
+.h1 a {
+    color: black;
+}
+
 .text .h1:hover {
   text-decoration: underline;
 }
@@ -200,6 +208,7 @@ a .card {
 
 .more a {
   text-decoration: none;
+  color: #247182;
 }
 
 .more:hover {
@@ -359,6 +368,10 @@ grid-template-areas:
   color: #666;
 }
 
+.title a {
+    color: #666;
+}
+
 .title a:hover {
   text-decoration: underline;
 }
@@ -401,7 +414,11 @@ grid-template-areas:
     text-decoration: underline;
 }
 
-.seemore a:visited{
+.seemore a:visited {
+    color: #247182;
+}
+
+.seemore a {
     color: #247182;
 }
 
@@ -443,7 +460,7 @@ grid-template-areas:
   margin-right: 0;
 }
 
-.number {
+.num {
   text-decoration: underline;
 }
 
@@ -576,7 +593,11 @@ grid-template-areas:
     color: #666;
   }
 
-  h3 a:visited {
+  .caption h3 a:visited {
+    color: #666;
+  }
+
+  .caption h3 a {
     color: #666;
   }
 
@@ -607,6 +628,7 @@ grid-template-areas:
 
   a .card {
   width: 100%;
+  height:auto;
 }
 
   .card-container {
@@ -644,8 +666,8 @@ grid-template-areas:
     }
 
     .service {
-      height: 300px;
-      width: auto;
+      height: auto;
+      width: 100%;
     }
 
     .footer {
