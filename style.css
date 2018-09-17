@@ -14,6 +14,10 @@ body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
 }
@@ -34,6 +38,7 @@ a {
 .navitems {
   display: flex;
   margin:0;
+  padding: 0;
   /*cursor: pointer;*/
 }
 
@@ -153,15 +158,17 @@ h3 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 100%;
-  height: 240px;
+  width: auto;
+  height: 12.5em;
   margin-bottom: 20px;
 }
 
 a .card {
   width: auto;
   height: 100%;
+  object-fit: contain;
 }
+
 
 .text {
   margin-top: 15px;
@@ -554,7 +561,7 @@ grid-template-areas:
   }
 
 .iconnav{
-  margin: 18px;
+  padding: 18px;
 }
 
 .iconnav i {
@@ -629,6 +636,7 @@ grid-template-areas:
   a .card {
   width: 100%;
   height:auto;
+  object-fit: contain;
 }
 
   .card-container {
@@ -652,6 +660,8 @@ grid-template-areas:
     flex-direction: column;
   }
 
+  .sponsers   {
+    padding-left: 0;}
 
 }
 
